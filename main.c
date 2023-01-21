@@ -6,7 +6,7 @@
 /*   By: joowpark <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 12:06:31 by joowpark          #+#    #+#             */
-/*   Updated: 2023/01/21 20:22:11 by joowpark         ###   ########.fr       */
+/*   Updated: 2023/01/21 20:25:56 by joowpark         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,6 +86,5 @@ int	main(int argc, char *argv[])
 	{
 		write(2, "Error\n", 6);
 	}
-	system("leaks --list -- $PPID");
 	return (0);
 }
